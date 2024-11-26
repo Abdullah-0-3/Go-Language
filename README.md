@@ -51,3 +51,32 @@ Here’s a quick guide to get you started:
 - Use a loop to allow multiple calculations until the user decides to exit.
 - Handle division by zero in the case of division operation.
 - Use functions for different operations to keep your code organized.
+
+---
+### Task 06: **Fibonacci Series**
+Write a Go program that generates the Fibonacci series up to a user-specified number of terms. 
+
+The Fibonacci series starts with 0 and 1, and then each subsequent number is the sum of the previous two. For example, the series looks like this:
+0, 1, 1, 2, 3, 5, 8, 13, ...
+
+Your program should:
+
+- Prompt the user for the number of terms they want in the Fibonacci series.
+- Use a loop to calculate and print the Fibonacci numbers up to that number of terms.
+- Handle cases where the input is less than or equal to zero (for example, you can print a message indicating that the number of terms must be positive).
+
+--- 
+### Task 07: **Basic File I/O**
+Write a Go program that reads a text file and counts the number of words in it. 
+
+**Requirements:**
+
+- Prompt the user to enter the filename (make sure the file exists in the same directory as your Go program).
+- Open the file and read its contents.
+- Count the number of words in the file (consider words to be separated by spaces).
+Print the total word count to the console.
+
+**Extras:**
+
+- If the file does not exist, handle the error gracefully and inform the user.
+- You can also consider counting lines or characters for additional functionality.
