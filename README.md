@@ -80,3 +80,34 @@ Print the total word count to the console.
 
 - If the file does not exist, handle the error gracefully and inform the user.
 - You can also consider counting lines or characters for additional functionality.
+
+---
+### Task 08: **Simple HTTP Server**
+Write a simple HTTP server in Go that responds with "Hello, World!" when accessed.
+
+**Requirements:**
+
+- Create a basic HTTP server that listens on a specified port (for example, port 8080).
+- When the server receives a GET request on the root path (/), it should respond with "Hello, World!".
+- You can test your server by opening a web browser or using tools like curl to access http://localhost:8080.
+
+**Extras:**
+
+- Handle any potential errors that come from starting the server.
+- Extend the server to handle additional paths (e.g., /goodbye) and respond with different messages.
+
+---
+### Task 09: **JSON Serialization and Deserialization**
+Create a Go program that defines a simple struct, serializes it to JSON, and then deserializes it back to a struct.
+
+**Requirements:**
+
+1. Define a struct that represents a basic entity (for example, a Person with fields like Name, Age, and Email).
+2. Create an instance of that struct, populate it with some data, and serialize it to JSON format.
+3. Print the resulting JSON string to the console.
+4. Deserialize the JSON string back to a struct, and print the resulting struct data to the console.
+
+**Extras:**
+
+- Handle any potential errors during serialization and deserialization.
+- Allow for the input of the struct data from the user before serialization.
