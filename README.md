@@ -4,7 +4,9 @@ Go is quickly becoming one of the top programming languages. While it’s somewh
 
 However, Go stands out with several advantages that make it a popular choice for developers.
 
-![Go Language](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtcufyYKf3mr5OIHmufcWXbUw1WPXw4nRtSg&s)
+<!-- ![Go Language](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtcufyYKf3mr5OIHmufcWXbUw1WPXw4nRtSg&s) -->
+
+<img src="https://www.nixsolutions.com/uploads/2020/07/Golang.png" alt="Go Language" style="width:100%; height:100%;">
 
 ### Why Choose Go?
 
