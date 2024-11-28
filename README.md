@@ -113,3 +113,29 @@ Create a Go program that defines a simple struct, serializes it to JSON, and the
 
 - Handle any potential errors during serialization and deserialization.
 - Allow for the input of the struct data from the user before serialization.
+
+---
+### Task 10: **CRUD Operations with a Slice**
+Implement a simple CRUD (Create, Read, Update, Delete) application in Go that manages a list of items in memory using a slice.
+
+**Requirements:**
+
+1. Define a Struct: Create a struct representing an item (for example, Item with fields like ID, Name, and Description).
+
+2. Create Functions:
+
+   - **CreateItem(item Item):** Adds a new item to the slice.
+   - **ReadItems():** Returns all items as a slice.
+   - **UpdateItem(id int, item Item):** Updates an existing item by its ID.
+   - **DeleteItem(id int):** Removes an item by its ID.
+   - **Main Function:** In the main function:
+
+3. Initialize an empty slice to store the items.
+
+- Call the CRUD functions to demonstrate adding, retrieving, updating, and deleting items. 
+- Print the results after each operation to show the current state of the items.
+
+**Extras:**
+
+- Implement error handling for the functions (e.g., trying to update or delete an item that does not exist).
+- Use a loop to allow repeated CRUD operations.
